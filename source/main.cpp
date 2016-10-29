@@ -62,11 +62,14 @@ int main(int argc, char** argv){
                             }
 
                             else{
-
+                                   
+                                //Set the basic render color
                                 SDL_SetRenderDrawColor(mainRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
-
+                                
+                                //Clear the renderer with the basic render color
                                 SDL_RenderClear(mainRenderer);
-
+                                
+                                //Sync the renderer with the window
                                 SDL_RenderPresent(mainRenderer);
 
                             }
