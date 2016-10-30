@@ -72,14 +72,11 @@ int main(int argc, char** argv){
                                 //Sync the renderer with the window
                                 SDL_RenderPresent(mainRenderer);
 
-                            }
                         }
                     }
-
                 }
-
             }
-
+        }
     }
 
     //Free the memory
